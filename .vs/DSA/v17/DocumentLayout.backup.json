@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Personal\\DSA\\ArrayProblem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07BCD9F1-9C37-4413-BD80-EB7A54769FE1}|DSA.UnitTest\\DSA.UnitTest.csproj|c:\\personal\\dsa\\arrayproblem\\dsa.unittest\\differencearraytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07BCD9F1-9C37-4413-BD80-EB7A54769FE1}|DSA.UnitTest\\DSA.UnitTest.csproj|solutionrelative:dsa.unittest\\differencearraytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605DC804-DBD7-452C-B725-0766AEFFD099}|DSA.ArrayProblems\\DSA.ArrayProblems.csproj|c:\\personal\\dsa\\arrayproblem\\dsa.arrayproblems\\finddifferencearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605DC804-DBD7-452C-B725-0766AEFFD099}|DSA.ArrayProblems\\DSA.ArrayProblems.csproj|solutionrelative:dsa.arrayproblems\\finddifferencearray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 199,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DifferenceArrayTests.cs",
+              "DocumentMoniker": "C:\\Personal\\DSA\\ArrayProblem\\DSA.UnitTest\\DifferenceArrayTests.cs",
+              "RelativeDocumentMoniker": "DSA.UnitTest\\DifferenceArrayTests.cs",
+              "ToolTip": "C:\\Personal\\DSA\\ArrayProblem\\DSA.UnitTest\\DifferenceArrayTests.cs",
+              "RelativeToolTip": "DSA.UnitTest\\DifferenceArrayTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:56:27.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindDifferenceArray.cs",
+              "DocumentMoniker": "C:\\Personal\\DSA\\ArrayProblem\\DSA.ArrayProblems\\FindDifferenceArray.cs",
+              "RelativeDocumentMoniker": "DSA.ArrayProblems\\FindDifferenceArray.cs",
+              "ToolTip": "C:\\Personal\\DSA\\ArrayProblem\\DSA.ArrayProblems\\FindDifferenceArray.cs",
+              "RelativeToolTip": "DSA.ArrayProblems\\FindDifferenceArray.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:55:29.919Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
