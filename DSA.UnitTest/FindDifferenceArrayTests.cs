@@ -3,7 +3,7 @@ using FluentAssertions;
 
 namespace DSA.UnitTest;
 
-public class DifferenceArrayTests
+public class FindDifferenceArrayTests
 {
     [Fact]
     public void GetFindDifferenceArray_ShouldReturnEmptyArray_WhenInputIsEmpty()
