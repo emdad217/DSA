@@ -43,5 +43,39 @@ namespace DSA.UnitTest
             result.Should().BeFalse();
 
         }
+
+        [Fact]
+        public void IsDuplicateArrayOn_ShouldHandleMultipleValuesCorrectly_False()
+        {
+            //Arrange
+            var sut = new CheckDuplicateArray();
+            int[] nums = [1, 2, 3, 4];
+            //int[] nums = [2, 3];
+
+
+            //Act
+            var result = sut.IsDuplicateArrayOn(nums);
+
+            //Assert
+            result.Should().BeFalse();
+
+        }
+
+        [Fact]
+        public void IsDuplicateArrayOn_ShouldHandleMultipleValuesCorrectly_True()
+        {
+            //Arrange
+            var sut = new CheckDuplicateArray();
+            int[] nums = [4, 2, 3, 4];
+            //int[] nums = [2, 3];
+
+
+            //Act
+            var result = sut.IsDuplicateArrayOn(nums);
+
+            //Assert
+            result.Should().BeTrue();
+
+        }
     }
 }

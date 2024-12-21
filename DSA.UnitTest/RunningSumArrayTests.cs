@@ -29,5 +29,22 @@ namespace DSA.UnitTest
             //For rsult[4] = 4: 2 + 3 + 5 + 1 + 6 = 17
 
         }
+
+        [Fact]
+        public void GettingRunningSumArrayOn_ShouldHandleMultipleValuesCorrectly()
+        {
+            //Arrange
+            var sut = new RunningSumArray();
+            int[] nums = [2, 3, 5, 1, 6];
+            //int[] nums = [2, 3];
+
+
+            //Act
+            var result = sut.GettingRunningSumArrayOn(nums);
+
+            //Assert
+            result.Should().Equal(2, 5, 10, 11, 17);
+
+        }
     }
 }

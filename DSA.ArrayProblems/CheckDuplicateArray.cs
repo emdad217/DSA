@@ -14,7 +14,27 @@ public class CheckDuplicateArray
             }
         }
 
-        //Total complexity: O(n2)
+        //Total complexity: O(n^2)
         return false;
+    }
+
+
+    //should all elements within the array length;
+    //Time complexity: O(n)
+    public bool IsDuplicateArrayOn(int[] nums)
+    {
+        for (int i = 0; i < nums.Length; i++)
+        {
+            int index = Math.Abs(nums[i]) - 1; // Use the value as an index (adjusted for 0-based indexing)
+
+            if (nums[index] < 0)
+            {
+                return true; // Found a duplicate
+            }
+
+            nums[index] = -nums[index]; // Mark as visited
+        }
+
+        return false; // No duplicate found
     }
 }

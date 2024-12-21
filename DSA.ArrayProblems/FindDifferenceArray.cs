@@ -30,7 +30,7 @@ public class FindDifferenceArray
             differenceArray[i] = (leftSum - rightSum) < 0 ? (leftSum - rightSum) * -1 : (leftSum - rightSum);
         }
 
-        //Total: O(n*n) = O(n2)
+        //Total: O(n*n) = O(n^2)
 
         return differenceArray;
     }
